@@ -3,10 +3,10 @@ const bodyParser = require('body-parser');
 const path = require('path');
 const proxy = require('express-http-proxy');
 
-const reviewsServer = require('../../Student-Feedback/server/index.js');
-const instructorServer = require('../../instructors-service/server/index.js');
-const headerSidebarServer = require('../../header-sidebar-service/server/index.js');
-const similarCoursesServer = require('../../students-also-bought-service/server/server.js');
+require('../../Student-Feedback/server/index.js');
+require('../../instructors-service/server/index.js');
+require('../../header-sidebar-service/server/index.js');
+require('../../students-also-bought-service/server/server.js');
 
 const app = express();
 const PORT = 3000;
