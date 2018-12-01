@@ -1,0 +1,24 @@
+{
+  "name": "proxy-server-alex",
+  "version": "",
+  "description": "",
+  "author": "Alex Burkowsky",
+  "license": "",
+  "engines": {
+    "node": ">=6.13.0"
+  },
+  "scripts": {
+    "start": "nodemon server/index.js --ignore node_modules"
+  },
+  
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-http-proxy": "^1.5.0",
+    "newrelic": "^4.11.0",
+    "nodemon": "^1.18.6",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
+  }
+}
